@@ -1,0 +1,14 @@
+select
+    cr.credittotal as 'Total Credits',
+    cr.firstschool as 'College [1]',
+    cr.degreeone as 'Degree [1]',
+    vs.major as 'Major [1]',
+    cr.gpa1 as 'GPA [1]',
+    cr.secondschool as 'College [2]',
+    cr.degreetwo as 'Degree [2]',
+    psu.major as 'Major [2]',
+    cr.gpa2 as 'GPA [2]'
+from
+     collegereport cr,
+     psuinfo psu,
+     volstateinfo vs;
