@@ -1,0 +1,8 @@
+select
+    school as 'College',
+    id as 'College ID',
+    gpa as 'Overall GPA',
+    degree as 'Degree',
+    college as 'College',
+    major as 'Major'
+from psuinfo;
