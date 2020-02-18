@@ -1,0 +1,8 @@
+select
+    (select sum(credits) from courses_volstate) as 'Credit Count :: Volstate',
+    (select sum(credits) from courses_psu) as 'Credit Count :: Penn State',
+    tc.creditcount as 'Credit Count :: Transfer',
+    tc.importeedto as 'Transferred To:',
+    tc.importedfrom as 'Transferred From:'
+from
+    transfercredits tc;
