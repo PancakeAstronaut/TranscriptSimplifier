@@ -1,0 +1,8 @@
+select
+    subject as 'Course',
+    catalogid as 'Catalog ID',
+    title as 'Course Title',
+    credits as 'Credit Units',
+    term as 'Course Term',
+    grade as 'Course Grade'
+from courses_psu;
