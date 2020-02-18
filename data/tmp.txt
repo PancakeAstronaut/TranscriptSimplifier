@@ -1,0 +1,1 @@
+This directory contains the SQLite3 database used to hold the info, You'd create your own here. 
