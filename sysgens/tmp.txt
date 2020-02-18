@@ -1,0 +1,1 @@
+This is where the temporary HTML files will be held until they are opened. Then they will be deleted.
